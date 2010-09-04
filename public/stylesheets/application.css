@@ -1,0 +1,7 @@
+.notice {
+  color: #00AA00;
+}
+
+.field_with_errors, #error_explanation, .alert {  
+  color: #AA0000;
+}

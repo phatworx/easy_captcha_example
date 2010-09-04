@@ -1,0 +1,7 @@
+<h1>Simple Form</h1>
+
+<% form_tag :simple_form do %>
+  <p><%= captcha_tag %></p>
+  <p><%= text_field_tag :captcha %></p>
+  <p><%= submit_tag 'Validate' %></p>
+<% end %>
