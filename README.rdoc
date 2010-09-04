@@ -2,6 +2,9 @@
 
 A sample app for http://github.com/traxanos/easy_captcha
 
+== Samples
+* Devise registration sample with Captcha
+
 == Maintainers
 
 * Marco Scholl (http://github.com/traxanos)

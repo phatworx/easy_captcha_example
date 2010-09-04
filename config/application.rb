@@ -38,5 +38,15 @@ module EasyCaptchaSample
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+    
+    # Hack for devise Captcha integration
+    config.to_prepare do 
+      Devise::RegistrationsController.class_eval do
+        def build_resource(hash=nil)
+          super(hash)
+          self.resource.captcha_verification = session[:captcha]
+        end
+      end
+    end
   end
 end
