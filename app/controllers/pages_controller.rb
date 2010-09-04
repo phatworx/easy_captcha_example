@@ -8,7 +8,7 @@ class PagesController < ApplicationController
       @tableless_model = TablelessModel.new(params[:tableless_model])
       @tableless_model.captcha_verification = session[:captcha]
       if @tableless_model.valid?
-        redirect_to :root, :notice => "Valid Captcha"
+        redirect_to :root, :notice => "valid captcha"
       end
     else
       @tableless_model = TablelessModel.new
@@ -18,7 +18,7 @@ class PagesController < ApplicationController
   def simple_form
     if request.post?
       if valid_captcha? params[:captcha]
-        flash[:notice] = "valid captcha"
+        redirect_to :root, :notice => "valid captcha"
       else
         flash[:alert] = "invalid captcha"
       end
