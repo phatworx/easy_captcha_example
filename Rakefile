@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-EasyCaptchaSample::Application.load_tasks
+EasyCaptchaExample::Application.load_tasks

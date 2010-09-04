@@ -1,4 +1,4 @@
-EasyCaptchaSample::Application.routes.draw do
+EasyCaptchaExample::Application.routes.draw do
   match "captcha" => EasyCaptcha::Controller
   get "pages/index"
 
