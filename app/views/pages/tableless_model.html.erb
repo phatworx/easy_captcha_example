@@ -1,0 +1,6 @@
+<%= form_for @tableless_model, :url => :tableless_model do |f| %>
+  <p><%= captcha_tag %></p>
+  <p><%= f.label :captcha %></p>
+  <p><%= f.text_field :captcha %></p>
+  <p><%= f.submit 'Validate' %></p>
+<% end %>

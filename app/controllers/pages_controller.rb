@@ -3,6 +3,18 @@ class PagesController < ApplicationController
     
   end
   
+  def tableless_model
+    if request.post?
+      @tableless_model = TablelessModel.new(params[:tableless_model])
+      @tableless_model.captcha_verification = session[:captcha]
+      if @tableless_model.valid?
+        redirect_to :root, :notice => "Valid Captcha"
+      end
+    else
+      @tableless_model = TablelessModel.new
+    end
+  end
+  
   def simple_form
     if request.post?
       if valid_captcha? params[:captcha]
