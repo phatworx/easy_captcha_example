@@ -35,7 +35,7 @@ GEM
     devise (1.1.2)
       bcrypt-ruby (~> 2.1.2)
       warden (~> 0.10.7)
-    easy_captcha (0.1.5)
+    easy_captcha (0.1.7)
       rails (>= 3.0.0)
       rmagick
     erubis (2.6.6)
