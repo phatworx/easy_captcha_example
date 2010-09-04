@@ -1,6 +1,6 @@
 == EasyCaptcha Sample
 
-A example app for http://github.com/traxanos/easy_captcha
+An example app for http://github.com/traxanos/easy_captcha
 
 == Samples
 * Devise registration example with Captcha
