@@ -1,0 +1,11 @@
+== EasyCaptcha Sample
+
+A sample app for http://github.com/traxanos/easy_captcha
+
+== Maintainers
+
+* Marco Scholl (http://github.com/traxanos)
+
+== License
+
+Copyright (c) 2010 Marco Scholl, released under the MIT license
