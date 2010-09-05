@@ -2,8 +2,15 @@
 
 An example app for http://github.com/traxanos/easy_captcha
 
+== Requirements
+
+* EasyCaptcha (http://github.com/traxanos/easy_captcha)
+* Rails 3 (http://github.com/rails/rails)
+
 == Samples
 * Devise registration example with Captcha
+* Simple form with Captcha
+* ActiveModel with Captcha
 
 == Maintainers
 
