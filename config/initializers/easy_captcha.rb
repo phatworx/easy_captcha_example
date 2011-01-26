@@ -1,18 +1,18 @@
 EasyCaptcha.setup do |config|
   # Cache
-  # config.cache          = true
+  config.cache          = true
   # Cache temp dir from Rails.root
-  # config.cache_temp_dir = Rails.root + 'tmp' + 'captchas'
+  config.cache_temp_dir = Rails.root + 'tmp' + 'captchas'
   # Cache size
-  # config.cache_size     = 500
+  config.cache_size     = 10
   # Cache expire
-  # config.cache_expire   = 1.days
+  config.cache_expire   = 10.seconds
 
   # Chars
-  # config.chars          = %w(2 3 4 5 6 7 9 A C D E F G H J K L M N P Q R S T U X Y Z)
+  config.chars          = %w(2 4 6 8 A B C)
 
   # Length
-  # config.length         = 6
+  config.length         = 5
 
   # Image
   # config.image_height   = 40
