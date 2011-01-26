@@ -8,7 +8,7 @@ gem 'rails', '3.0.3'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'warden'
 gem 'devise'
-gem 'easy_captcha', :git => 'git://github.com/traxanos/easy_captcha.git'
+gem 'easy_captcha'#, :git => 'git://github.com/traxanos/easy_captcha.git'
 
 # Use unicorn as the web server
 # gem 'unicorn'

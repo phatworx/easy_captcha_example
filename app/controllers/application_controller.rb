@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery
+  # reset captcha code after each request for security
+  after_filter :reset_last_captcha_code!
 
-  after_filter lambda { session.delete(:captcha) }
+  protect_from_forgery
 end
