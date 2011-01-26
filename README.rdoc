@@ -1,13 +1,15 @@
-== EasyCaptcha Sample
+= EasyCaptcha Sample
 
 An example app for http://github.com/traxanos/easy_captcha
 
 == Requirements
 
+* RMagick
+* Devise (https://github.com/plataformatec/devise)
 * EasyCaptcha (http://github.com/traxanos/easy_captcha)
 * Rails 3 (http://github.com/rails/rails)
 
-== Samples
+== Examples
 * Devise registration example with Captcha
 * Simple form with Captcha
 * ActiveModel with Captcha
