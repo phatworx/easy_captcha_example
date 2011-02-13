@@ -1,12 +1,12 @@
 = EasyCaptcha Sample
 
-An example app for http://github.com/traxanos/easy_captcha
+An example app for http://github.com/phatworx/easy_captcha
 
 == Requirements
 
 * RMagick
 * Devise (https://github.com/plataformatec/devise)
-* EasyCaptcha (http://github.com/traxanos/easy_captcha)
+* EasyCaptcha (http://github.com/phatworx/easy_captcha)
 * Rails 3 (http://github.com/rails/rails)
 
 == Examples
@@ -16,6 +16,7 @@ An example app for http://github.com/traxanos/easy_captcha
 
 == Maintainers
 
+* Team Phatworx (http://github.com/phatworx)
 * Marco Scholl (http://github.com/traxanos)
 
 == License
