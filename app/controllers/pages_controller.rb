@@ -17,7 +17,7 @@ class PagesController < ApplicationController
   
   def simple_form
     if request.post?
-      if valid_captcha? params[:captcha]
+      if captcha_valid? params[:captcha]
         redirect_to :root, :notice => "valid captcha"
       else
         flash[:alert] = "invalid captcha"
